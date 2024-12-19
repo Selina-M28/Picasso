@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+  margin: 5%;
+  color: darkblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bowl-container {
+  display: flex;
+  justify-content: center;
+}
+.bowl {
+  height: 250px;
+  width: 500px;
+  background-color: lightblue;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  position: absolute;
+  z-index: 1;
+}
+.inner-bowl {
+  height: 150px;
+  width: 400px;
+  background-color: rgb(106, 150, 165);
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-bottom: 5px solid darkblue;
+  position: absolute;
+  z-index: 2;
+}
+
+.orange {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  border-radius: 50%;
+  border: solid rgb(226, 129, 18);
+  position: relative;
+  top: -20px;
+  align-items: end;
+  z-index: 3;
+}
+
+.apple {
+  width: 80px;
+  height: 90px;
+  background: #f54b40;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 60%;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 60%;
+  position: relative;
+  left: 10%;
+  top: -20px;
+  z-index: 4;
+}
+
+.apple-stem {
+  background: #175638;
+  width: 5px;
+  height: 16px;
+  z-index: 5;
+  position: relative;
+  left: 6.5%;
+  top: -28px;
+}
+
+.form {
+  margin-top: 350px;
+  text-align: center;
+}
